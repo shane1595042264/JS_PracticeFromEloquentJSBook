@@ -2,3 +2,4 @@ var cities = [['Shenzhen', 'Shanghai'],['NewYork', 'Washington'],['York', 'Londo
 
 BigCities = cities.reduce((a, b)=> a.concat(b), []);
 console.log(BigCities);
+
